@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="register.css">
+  <title>CAT 2 Assignment</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="">En-Compass</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About</a></li>
+<!--        <li><a href="#">Testimonials</a></li>-->
+        <li><a href="">Register</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    <section id="register-login">
+      <div class="login-page">
+        <div class="form">
+          <form action="" class="register-form">
+            <label for="name">Full Names</label>
+            <input type="text" id="name" placeholder="Full Names i.e Osego Baba">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="xyz@gmail.com">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="***************">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="***************">
+            <button type="submit">Submit</button>
+            <p class="message">Already registered? <a href="#">Login</a></p>
+          </form>
+
+          <form action="" class="login-form">
+            <label for="email-login">Email Address</label>
+            <input type="email" id="email-login" placeholder="xyz@gmail.com">
+            <label for="password-login">Password</label>
+            <input type="email" id="password-login" placeholder="***************">
+            <button type="submit">LOGIN</button>
+            <p class="message"> Not Registered? <a href="#">Register</a></p>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="copy-right">
+      <p>All rights Reserved || Copyright @ Osegonam Baba</p>
+    </div>
+    <div class="social-links">
+      <a href="">LinkedIn</a>
+      <a href="">Twitter</a>
+      <a href="">Github</a>
+      <a href="">Hash.Node</a>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js">
+  </script>
+  <script>
+    $('.message a').click(function (){
+      $('form').animate({height: "toggle", opacity: "toggle"}, "slow")
+    })
+  </script>
+</body>
+</html>

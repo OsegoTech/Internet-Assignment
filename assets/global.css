@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    /*background-color: ;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}
+.copy-right{
+    text-align: center;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links a{
+    color: white;
+    border-right: 2px white solid ;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}

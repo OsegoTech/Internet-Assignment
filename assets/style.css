@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/registeration bacckgroound.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    position: sticky;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.introduction{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    /*background-image: url("./images/images (3).jpeg");*/
+    /*position: absolute;*/
+    /*background-size: cover;*/
+}
+
+.introduction h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#register-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:  auto;
+}
+
+form{
+
+}
+
+.label{
+    display: block;
+    margin-top: 10px;
+}
+
+.col h3{
+    margin: 20px 0;
+}
+
+.col h4{
+    margin: 20px 0;
+}
